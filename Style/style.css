@@ -54,7 +54,7 @@ body {
     align-items: center;
 }
 .second-section .title {
-    margin: 1.5rem auto;
+    margin: 1rem auto;
 }
 .second-section .description {
     margin-bottom: 1.5rem;
@@ -89,19 +89,19 @@ body {
     color: white;
     white-space: nowrap;
     background: #BF0B32;
-    box-shadow: 0px 2px 2px 1px #f73861;
     transition: all 0.3s;
 }
 .btn:hover {
     transform: scale(1.1);
     border-radius: 5px;
-    box-shadow: 0px 1px 1px 0px #fe7d99;
+    background: #b8324f;
+
 }
 .divider {
+    margin: -4px auto;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    margin: -4px auto;
     transform: rotate(180deg);
 }
 
@@ -115,4 +115,33 @@ body {
 .divider .shape-fill {
     fill: #BF0B32;
 }
-
+.request {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #002768;
+}
+.request .titulo-request {
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 1rem auto;
+}
+.request .description-request {
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+.request-btn {
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    background: #BF0B32;
+    transition: all 0.3s;
+    margin: 1rem auto;
+}
+.request-btn:hover {
+    transform: scale(1.1);
+    background: #b8324f;
+}
