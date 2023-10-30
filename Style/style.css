@@ -127,6 +127,7 @@ body {
     color: #FFF;
     text-transform: uppercase;
     margin: 1rem auto;
+    font-size: 1rem;
 }
 .request .description-request {
     color: #FFF;
