@@ -125,12 +125,13 @@ body {
 }
 .request .titulo-request {
     color: #FFF;
+    font-size: 18px;
     text-transform: uppercase;
     margin: 1rem auto;
-    font-size: 1rem;
 }
 .request .description-request {
     color: #FFF;
+    text-transform: uppercase;
     margin-bottom: 1rem;
 }
 .request-btn {
