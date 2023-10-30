@@ -87,14 +87,14 @@ body {
     padding: 8px 10px ;
     color: white;
     white-space: nowrap;
-    background: orange;
-    box-shadow: 0px 2px 2px 1px rgb(154, 100, 1);
+    background: #BF0B32;
+    box-shadow: 0px 2px 2px 1px #f73861;
     transition: all 0.3s;
 }
 .btn:hover {
     transform: scale(1.1);
     border-radius: 5px;
-    box-shadow: 0px 2px 2px 1px rgb(209, 165, 83);
+    box-shadow: 0px 1px 1px 0px #fe7d99;
 }
 
 
