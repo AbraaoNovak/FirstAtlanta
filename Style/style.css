@@ -210,7 +210,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 150px;
+    height: 100px;
     padding: 15px;
     color: rgb(216, 216, 216);
     background: #002768;
@@ -236,17 +236,37 @@ body {
     filter: brightness(0) saturate(100%) invert(100%) sepia(15%) saturate(171%) hue-rotate(191deg) brightness(120%) contrast(83%);
 }
 
-.house-description,
-.handshake-description,
-.location-description {
-    font-size: 0.7rem;
-    text-align: center;
-}
-
 .dados-empresa .house-description,
 .handshake-description,
 .location-description {
-    /* width: 66px; */
+    font-size: 0.7rem;
     align-items: center;
     text-align: center;
+}
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.video-section .youtube-video {
+    /* display: flex;
+    justify-items: center; */
+    border: 3px solid #b8324f;
+    border-radius: 10px;
+}
+.video-section .description {
+    margin: 1.5rem auto;
+    padding: 0 2.5rem;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+.video-section .title {
+    margin-top: 1rem;
+
+}
+.title span {
+    color: #b8324f;
 }
