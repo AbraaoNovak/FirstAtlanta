@@ -6,20 +6,24 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+
 .header {
     display: flex;
     height: 100px;
-    
+
 }
+
 .logo {
     width: 85px;
     margin: 0.5rem auto;
 }
+
 .navigation {
     display: flex;
     width: 100%;
@@ -28,56 +32,84 @@ body {
     justify-content: flex-end;
     box-shadow: 0px 0px 5px 0px rgb(191, 191, 191);
 }
+
 .navigation .logo {
     margin-left: 15px;
 }
+
 .link {
     margin-right: 1rem;
     color: black;
     font-size: 0.8rem;
     transition: all 0.3s;
 }
+
 .link:hover {
     color: grey;
     transform: scale(1.1);
     border-bottom: 1px solid rgb(207, 56, 56);
 }
+
 .foto-primeira-secao {
     width: 100%;
     height: 100%;
     box-shadow: 0px 4px 4px 0px rgb(191, 191, 191);
 }
+
 .second-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .second-section .title {
     margin: 1rem auto;
 }
+
 .second-section .description {
     margin-bottom: 1.5rem;
     padding: 0 2.5rem;
     text-align: justify;
     font-size: 1.1rem;
 }
+
 .photos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-.primeira-foto, .segunda-foto, .terceira-foto {
+
+.primeira-foto,
+.segunda-foto,
+.terceira-foto {
     width: 75%;
     margin: 10px;
+    border-radius: 15px;
     box-shadow: 0px 5px 5px 1px grey;
     transition: all 0.3s;
 }
-.primeira-foto:hover, .segunda-foto:hover, .terceira-foto:hover {
+
+.primeira-foto {
+    border: 5px solid rgb(239, 95, 95);
+}
+
+.segunda-foto {
+    border: 5px solid rgb(70, 85, 247);
+}
+
+.terceira-foto {
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.primeira-foto:hover,
+.segunda-foto:hover,
+.terceira-foto:hover {
     border-radius: 10px;
     opacity: 50%;
 }
+
 .btn {
     margin: 1rem auto;
     display: flex;
@@ -85,20 +117,22 @@ body {
     align-items: center;
     font-size: 0.8rem;
     width: 20%;
-    padding: 8px 10px ;
+    padding: 8px 10px;
     color: white;
     white-space: nowrap;
     background: #BF0B32;
     transition: all 0.3s;
 }
+
 .btn:hover {
     transform: scale(1.1);
     border-radius: 5px;
     background: #b8324f;
 
 }
+
 .divider {
-    margin: -4px auto;
+    margin: -5px auto;
     width: 100%;
     overflow: hidden;
     line-height: 0;
@@ -115,6 +149,7 @@ body {
 .divider .shape-fill {
     fill: #BF0B32;
 }
+
 .request {
     display: flex;
     flex-direction: column;
@@ -123,17 +158,20 @@ body {
     padding: 10px;
     background: #002768;
 }
+
 .request .titulo-request {
     color: #FFF;
     font-size: 18px;
     text-transform: uppercase;
     margin: 1rem auto;
 }
+
 .request .description-request {
     color: #FFF;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
+
 .request-btn {
     text-decoration: none;
     color: #FFF;
@@ -143,7 +181,72 @@ body {
     transition: all 0.3s;
     margin: 1rem auto;
 }
+
 .request-btn:hover {
     transform: scale(1.1);
     background: #b8324f;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.third-section .title {
+    margin-top: 3rem;
+}
+
+.third-section .description {
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0 2.5rem;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.dados-empresa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    color: rgb(216, 216, 216);
+    background: #002768;
+}
+
+.house-icon {
+    width: 35px;
+    /* margin-left: 5px; */
+}
+
+.handshake-icon {
+    width: 40px;
+    /* margin-left: 10px; */
+}
+
+.location-icon {
+    width: 25px;
+}
+
+.house-icon,
+.handshake-icon,
+.location-icon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(15%) saturate(171%) hue-rotate(191deg) brightness(120%) contrast(83%);
+}
+
+.house-description,
+.handshake-description,
+.location-description {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.dados-empresa .house-description,
+.handshake-description,
+.location-description {
+    /* width: 66px; */
+    align-items: center;
+    text-align: center;
 }
