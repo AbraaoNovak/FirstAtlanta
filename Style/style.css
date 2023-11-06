@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    width: 85px;
+    width: 105px;
     margin: 0.5rem auto;
 }
 
@@ -39,8 +39,8 @@ body {
 }
 
 .link {
-    margin-right: 1rem;
-    color: black;
+    margin-right: 0.6rem;
+    color: #002768;
     font-size: 0.8rem;
     transition: all 0.3s;
 }
@@ -68,14 +68,15 @@ body {
 .second-section .title {
     margin: 1rem auto;
     color: #002768;
+    border-bottom: 1px solid #b8324f;
 }
 
 .second-section .description {
     margin-bottom: 1.5rem;
     padding: 0 2.5rem;
-    text-align: justify;
+    text-align: start;
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .photos {
@@ -148,11 +149,11 @@ body {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 70px;
+    height: 23px;
 }
 
 .divider .shape-fill {
-    fill: #BF0B32;
+    fill: #B8324F;
 }
 
 .request {
@@ -204,14 +205,15 @@ body {
 .third-section .title {
     margin-top: 3rem;
     color: #002768;
+    border-bottom: 1px solid #b8324f;
 }
 
 .third-section .description {
     margin: 1.5rem 0 1.5rem 0;
     padding: 0 2.5rem;
-    text-align: justify;
+    text-align: start;
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .dados-empresa {
@@ -253,6 +255,7 @@ body {
     align-items: center;
     text-align: center;
 }
+
 .video-section {
     display: flex;
     flex-direction: column;
@@ -261,37 +264,48 @@ body {
     justify-content: center;
     margin: 2rem auto;
 }
+
 .video-section .youtube-video {
     /* display: flex;
     justify-items: center; */
-    border: 3px solid #b8324f;
-    border-radius: 10px;
+    /* border: 3px solid #b8324f; */
+    box-shadow: 0px 3px 3px 0px gray;
+    /* border-radius: 10px; */
 }
+
 .video-section .description {
     margin: 1.5rem auto;
     padding: 0 2.5rem;
-    text-align: justify;
+    text-align: start;
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 200;
 }
+
 .video-section .title {
     margin-top: 1rem;
     color: #002768;
+    border-bottom: 1px solid #b8324f;
+
 
 }
+
 .title span {
     color: #b8324f;
 }
+
 .fourth-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem 4rem;
+    margin: 2rem 2rem;
 }
-.ideia-one, .ideia-two, .ideia-three{
+
+.ideia-one,
+.ideia-two,
+.ideia-three {
     width: 100%;
-    height: 190px;
+    height: 240px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -301,9 +315,12 @@ body {
     margin-bottom: 2rem;
     background: rgb(251, 251, 251);
 }
+
 .ideia-title {
     margin: 0.7rem auto;
+    color: #002768;
 }
+
 .ideia-description {
     font-weight: 200;
 }
