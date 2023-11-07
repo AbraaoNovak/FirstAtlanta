@@ -19,9 +19,42 @@
         </nav>
     </header>
     <main>
-        <section class="first-section">
+        <div class="slider">
+
+            <div class="slides">
+                <!-- Radio Buttons -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <!-- Fim Radio Buttons -->
+
+                <!-- Slides Image -->
+                <div class="slide first">
+                    <img src="/Images/banner01.svg" alt="imagem 01">
+                </div>
+                <div class="slide">
+                    <img src="/Images/banner02.svg" alt="imagem 02">
+                </div>
+                <div class="slide">
+                    <img src="/Images/banner03.svg" alt="imagem 03">
+                </div>
+                <!-- Fim Slides Image -->
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+        <!-- <section class="first-section">
             <img src="/Images/first-section.svg" class="foto-primeira-secao" alt="Casa americana">
-        </section>
+        </section> -->
 
         <div class="divider">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -98,6 +131,7 @@
             </div>
         </section>
     </main>
+    <script src="/banner.js"></script>
 </body>
 
 </html>
