@@ -50,6 +50,9 @@ body {
     transform: scale(1.1);
     border-bottom: 1px solid rgb(207, 56, 56);
 }
+.navigation .home{
+    border-bottom: 1px solid rgb(207, 56, 56);
+}
 
 .slider {
     margin: 0 auto;
@@ -234,7 +237,7 @@ body {
 }
 
 .divider {
-    margin: 0 auto;
+    margin: -5px auto;
     width: 100%;
     overflow: hidden;
     line-height: 0;
@@ -245,7 +248,7 @@ body {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 23px;
+    height: 40px;
 }
 
 .divider .shape-fill {
