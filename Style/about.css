@@ -1,0 +1,48 @@
+@import url("/Style/style.css");
+
+.navigation .about{
+    border-bottom: 1px solid rgb(207, 56, 56);
+}
+
+.about-section, .work-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.about-section .title {
+    margin: 1rem auto;
+    color: #002768;
+    border-bottom: 1px solid #b8324f;
+}
+
+.about-section .description {
+    margin-bottom: 1.5rem;
+    padding: 0 1.5rem;
+    text-align: start;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.work-location .title{
+    margin: 1rem auto;
+    color: #002768;
+    border-bottom: 1px solid #b8324f;
+}
+.work-location .description {
+    margin-bottom: 1.5rem;
+    padding: 0 1.5rem;
+    text-align: start;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.location-list-names {
+    list-style: none;
+    text-align: center;
+    margin: 0.5rem auto;
+}
+.location-names {
+    text-align: center;
+}
+
