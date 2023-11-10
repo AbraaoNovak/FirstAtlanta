@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -452,6 +452,9 @@ body {
     height: 40vh;
     flex-flow: wrap;
 }
+.menu-footer .home{
+    border-bottom: 1px solid rgb(207, 56, 56);
+}
 
 .follow {
     margin: 1rem auto;
@@ -519,7 +522,7 @@ body {
 }
 .novak{
     color: #FFF;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 10px;
     transition: 0.5s all;
 }
