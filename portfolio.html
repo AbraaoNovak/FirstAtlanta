@@ -6,9 +6,19 @@
     <link rel="stylesheet" href="/Style/portfolio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="shortcut icon" href="/Assets/favicon.svg" type="image/x-icon" />
 </head>
 
 <body>
+    <!-- início do preloader -->
+    <div id="preloader">
+        <div class="inner">
+            <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+            <img src="Assets/preloader-miniballs.gif">
+        </div>
+    </div>
+    <!-- fim do preloader -->
+    
     <!-- Link de navegação -->
     <header class="header">
         <nav class="navigation">
@@ -34,12 +44,8 @@
         </div>
 
         <section class="images-section">
-            <div class="image w-2 h-2">
+            <div class="image">
                 <img src="/Images/image01.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image01.svg')">
-            </div>
-
-            <div class="image w-2">
-                <img src="/Images/image02.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image02.svg')">
             </div>
             <div class="image">
                 <img src="/Images/image03.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image03.svg')">
@@ -47,8 +53,56 @@
             <div class="image h-2">
                 <img src="/Images/image04.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image04.svg')">
             </div>
-            <div class="image w-2">
+            <div class="image">
                 <img src="/Images/image05.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image05.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image07.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image07.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image08.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image08.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image10.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image10.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image11.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image11.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image12.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image12.svg')">
+            </div>
+            <div class="image h-2">
+                <img src="/Images/image13.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image13.svg')">
+            </div>
+            <div class="image h-2">
+                <img src="/Images/image14.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image14.svg')">
+            </div>
+            <div class="image h-2">
+                <img src="/Images/image15.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image15.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image09.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image09.svg')">
+            </div>
+            <div class="image h-2">
+                <img src="/Images/image16.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image16.svg')">
+            </div>
+            <div class="image h-2">
+                <img src="/Images/image17.svg" alt="Kitchen image" onclick="abrirGaleria('/Images/image17.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image18.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image18.svg')">
+            </div>
+            <div class="image h-2">
+                <img src="/Images/image19.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image19.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image06.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image06.svg')">
+            </div>
+            <div class="image h-2">
+                <img src="/Images/image20.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image20.svg')">
+            </div>
+            <div class="image">
+                <img src="/Images/image21.svg" alt="Living Room image" onclick="abrirGaleria('/Images/image21.svg')">
             </div>
 
         </section>
@@ -86,7 +140,7 @@
             <a href="portfolio.html" class="link-footer portfolio">Portfolio</a>
             <a href="about.html" class="link-footer">About</a>
             <a href="contact.html" class="link-footer">Contact</a>
-            <a href="#" class="link-footer">Privacy Policy</a>
+            <a href="privacy.html" class="link-footer">Privacy Policy</a>
         </div>
         <!-- Fim seção links inferiores  -->
 
@@ -97,7 +151,9 @@
             <a href="#" class="novak">Novak Digital Solutions</a>
         </div>
     </footer>
-    <script src="app.js"></script>
+
+    <script src="/Script/preloader.js"></script>
+    <script src="/Script/app.js"></script>
 </body>
 
 </html>
